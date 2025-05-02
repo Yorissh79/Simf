@@ -1,0 +1,50 @@
+.main {
+  width: 100%;
+  background-image: url(https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+    .f {
+      color: #fff;
+      font-size: 60px;
+      font-weight: 300;
+      width: 70%;
+    }
+
+    .s {
+      margin-bottom: 20px;
+      margin-top: 5px;
+      text-transform: uppercase;
+    }
+
+    button {
+      color: black;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      text-transform: uppercase;
+      width: 153px;
+      height: 44px;
+      transition: 0.3s;
+
+      &:hover {
+        color: white;
+        border: 1px solid white;
+        transition: 0.3s;
+        background-color: transparent;
+      }
+    }
+  }
+
+  .imgbox {
+    img {
+    }
+  }
+}

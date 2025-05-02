@@ -1,0 +1,54 @@
+.main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AF95FF;
+    width: 100%;
+    height: 70px;
+    gap: 300px;
+    position: sticky;
+    top: 0px;
+    z-index: 1001;
+
+    .imgbox {
+        img {
+
+        }
+    }
+
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        color: white;
+        font-size: 14px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .blog {
+            list-style: none;
+
+            .blogs {
+                display: none;
+            }
+        }
+
+        .dropdown {
+            list-style: none;
+
+            .ele {
+                list-style: none;
+                display: none;
+                .item {
+                    list-style: none;
+                    display: none;
+                }
+            }
+        }
+    }
+}

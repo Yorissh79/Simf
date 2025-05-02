@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 349px;
+    height: 174px;
+    gap: 30px;
+    cursor: pointer;
+
+    .top {
+        display: flex;
+        flex-direction: row;
+        padding-left: 30px;
+        gap: 20px;
+        transition: 0.3;
+        
+        .f {
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+    }
+
+    .bottom {
+        padding-left: 30px;
+        p {
+            color: black;
+        }
+    }
+
+}
+
+.main:hover {
+    .top {
+        color: purple;
+        transition: 0.3;
+        .f {
+            color: purple;
+        }
+    }
+}
